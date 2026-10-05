@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Primary_Road_1_X_1_connection
+  m_Shader: {fileID: 4800000, guid: e94d9b15fb8496c498800822c65b545d, type: 3}
+  m_ShaderKeywords: _SHOULDEREDGEMAPPING_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 33a37a9b3c648bb46a813c8401186a0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail:
+        m_Texture: {fileID: 2800000, guid: 02478c1ffe787bc4bb4ea4038a74d4c7, type: 3}
+        m_Scale: {x: 1, y: 0.75}
+        m_Offset: {x: 0, y: 0}
+    - _Dust:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lines:
+        m_Texture: {fileID: 2800000, guid: 4655340c17b4c37439e0d1b60324f02a, type: 3}
+        m_Scale: {x: 9, y: 9}
+        m_Offset: {x: 0, y: 0}
+    - _LinesMask:
+        m_Texture: {fileID: 2800000, guid: bd07e620672f3fe458909af54b26f334, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MetSMTyres:
+        m_Texture: {fileID: 2800000, guid: 722dd1be2bf1e13499d7eb80f5e9dce6, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MetSMTyresNoise:
+        m_Texture: {fileID: 2800000, guid: 81086067e9551624e93ccca657d4d2d1, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: 669c1e6db1a3d4a48bcd5f74f15ca51e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 4750cfc5ec85d704fbf52cff56872b78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale1: 1
+    - _BumpScale2: 1
+    - _BumpScale3: 0.546
+    - _DetailHeightThreshold: 0.5
+    - _DetailStrength: 1
+    - _DetailThresholdBlend: 0.5
+    - _DustPower: 0.5
+    - _DustThreshold: 1
+    - _LanesMetallicPower: 0
+    - _LanesSmoothnessPower: 0.921
+    - _LineMaskHeightThreshold: 0.856
+    - _LineMaskPower: 0.655
+    - _MaxLeftEdgeUV: 0.11113422
+    - _MaxXIncoming: 1
+    - _MaxXIncomingLeftEdge: 0.11113422
+    - _MaxXIncomingRightEdge: 1
+    - _MaxXOutGoing: 0.5034897
+    - _MaxXOutGoingLeftEdge: 0.6744385
+    - _MaxXOutGoingRightEdge: 0.8449707
+    - _MetallicPower: 0
+    - _MinRightEdgeUV: 0.88886577
+    - _MinXIncoming: 0
+    - _MinXIncomingLeftEdge: 0
+    - _MinXIncomingRightEdge: 0.88886577
+    - _MinXOutGoing: 0.003715694
+    - _MinXOutGoingLeftEdge: 0.5078125
+    - _MinXOutGoingRightEdge: 0.6783447
+    - _OcclusionStrength1: 1.21
+    - _OffsetFactor: -1
+    - _OffsetUnit: -1
+    - _ShoulderEdgeMapping: 1
+    - _SmoothnessPower: 1
+    - __MetallicSmoothnessTyreStrength7: 1
+    - __dirty: 1
+    m_Colors:
+    - _BaseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _MainTiling: {r: 3, g: 3, b: 0, a: 0}
