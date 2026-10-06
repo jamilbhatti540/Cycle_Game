@@ -1,6 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-Assets/__CycleGame/Scenes/Levels/Map_Design.unity filter=lfs diff=lfs merge=lfs -text
-Assets/__CycleGame/Scenes/Levels/Map_Dev.unity filter=lfs diff=lfs merge=lfs -text
+Map_Design.unity filter=lfs diff=lfs merge=lfs -text
+Map_Dev.unity filter=lfs diff=lfs merge=lfs -text
+
 "Assets/ObjectiveEnvironment_Assets/Realistic Terrain Textures Lite/Scenes/TerrainDATA/Terrain.asset" filter=lfs diff=lfs merge=lfs -text
