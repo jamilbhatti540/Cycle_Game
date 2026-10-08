@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
+  m_Name: Forest_Terrain_01
+  m_EditorClassIdentifier: Unity.TerrainTools.Editor::UnityEngine.TerrainTools.TerrainPalette
+  PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 3fe6e820beb41cb4ba18aa2d6d16702b, type: 2}
+  - {fileID: 8574412962073106934, guid: a925211405319b344ba6ccae53c494ef, type: 2}
+  - {fileID: 8574412962073106934, guid: 7ba7a711695a4904a86967c335f59fc9, type: 2}
+  - {fileID: 8574412962073106934, guid: 4f4cdba736b2ede4b9eda9192b695bca, type: 2}
+  - {fileID: 8574412962073106934, guid: e83e5b2c03473f74983ef0f5b9c160c0, type: 2}
+  - {fileID: 8574412962073106934, guid: 13da7f982df086549abd57247f0609e1, type: 2}
+  - {fileID: 8574412962073106934, guid: d25c8def728088547ae6a1024dd9b481, type: 2}
+  - {fileID: 8574412962073106934, guid: 871f479c43a4c2f4983e48791ecb563b, type: 2}
+  - {fileID: 8574412962073106934, guid: 0b165159803f41c49a222b9c17279b72, type: 2}
+  - {fileID: 8574412962073106934, guid: 9a73362259799e748b5f32ee4d5b9f54, type: 2}
+  - {fileID: 8574412962073106934, guid: c4620b1837c892840b5176d31add87e9, type: 2}
+  - {fileID: 8574412962073106934, guid: c6a803455442a834bbe190be6212b64b, type: 2}
+  - {fileID: 8574412962073106934, guid: 8f613a47e7748e54b86fedbab2101972, type: 2}
+  - {fileID: 8574412962073106934, guid: d3e7445ad8da7e2429349fb9f5a2595b, type: 2}
+  - {fileID: 8574412962073106934, guid: 836899498d252b14cb728166fe67a463, type: 2}
+  - {fileID: 8574412962073106934, guid: 635e0088e65c0d84dafde149a2ad3985, type: 2}
+  - {fileID: 8574412962073106934, guid: a2917434010dd0843a5e466d1089e051, type: 2}
