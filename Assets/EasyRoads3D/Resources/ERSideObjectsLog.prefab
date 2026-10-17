@@ -2024,7 +2024,7 @@ MonoBehaviour:
   - version: 2.0.0
     name: Motorway Vegetation
     id: 1615567565.3400443
-    timestamp: 1615567607.2208
+    timestamp: 1792056794.6871302
     objectType: 0
     gameobjectGUID: 
     textureGUID: 
@@ -2108,7 +2108,7 @@ MonoBehaviour:
     defaultEndOffset: 0
     segmentOffset: 0
     totalZDistance: 0
-    middleZDistance: 1
+    middleZDistance: 5
     startZDistance: 0
     endZDistance: 0
     minStartZ: 10000
@@ -2765,7 +2765,7 @@ MonoBehaviour:
   - version: 2.0.0
     name: Palm Trees
     id: 1462981249.4311268
-    timestamp: 1616780445.616848
+    timestamp: 1792057264.4843822
     objectType: 0
     gameobjectGUID: 
     textureGUID: 
@@ -2796,18 +2796,18 @@ MonoBehaviour:
     weld: 1
     combine: 0
     combineInstantiated: 1
-    markerActive: 1
+    markerActive: 0
     uvType: 0
     uv: 1
     randomObjects: 0
     forwardStartOffset: 0
     sidewaysOffset: 0.25
-    density: 1.5
+    density: 0
     goPath: 
     startPath: 
     endPath: 
     texturePath: 
-    terrainTree: 20
+    terrainTree: 36
     minScale: 0.85
     maxScale: 0.9
     childOrderActive: 0
@@ -2825,7 +2825,7 @@ MonoBehaviour:
     collider: 0
     boxcollider: 0
     tangents: 0
-    sourceObject: {fileID: 100000, guid: 02e48269f8d554fbca75435761452392, type: 3}
+    sourceObject: {fileID: 792905499359608883, guid: 709a8714fa344ba4c8246e88dc129804, type: 3}
     flipMesh: 0
     startObject: {fileID: 0}
     endObject: {fileID: 0}
@@ -2877,8 +2877,8 @@ MonoBehaviour:
     minRandomRotationDistance: 0
     maxRandomRotationDistance: 0
     randomXPosition: 0
-    randomMinXPosition: 0
-    randomMaxXPosition: 0
+    randomMinXPosition: 12
+    randomMaxXPosition: 12
     minRandomXPositionDistance: 0
     maxRandomXPositionDistance: 0
     boxColliderScale: {x: 1, y: 1, z: 1}
@@ -33741,6 +33741,88 @@ MonoBehaviour:
     crosswalkSign: {fileID: 100000, guid: ca24d58fab4bda2489746a85abef0adc, type: 3}
     crosswalkSignXOffset: 0.5
     crosswalkSignZOffset: 0.25
+    rotateLeftSigns: 1
+  - name: Sidewalk 2
+    id: 1792054734.9391856
+    timestamp: 1792054734.9391856
+    layer: 0
+    sidewalkWidth: 1.5
+    curbHeight: 0.25
+    curbDepth: 0.25
+    beveledCurb: 0
+    beveledHeight: 0
+    beveledDepth: 0
+    outerCurb: 0
+    roadSideCurbUVControl: 0
+    outerSideCurbUVControl: 0
+    material: {fileID: 0}
+    pavementMaterial: {fileID: 0}
+    hardEdges: 0
+    hardEdgePadding: 0
+    shape: []
+    shapePercentages: []
+    shapeCurbPercentages: []
+    sidewalkUVs: []
+    curbUVs: []
+    doConnectionTri: 
+    tileRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tileSize: 1
+    tiling: 1
+    uvRatio: 1
+    minEnd: 1
+    maxEnd: 1
+    lockUVs: 0
+    planarUVs: 0
+    planarTileSize: 1
+    planarTiling: {x: 1, y: 1}
+    planarUVRatioX: 1
+    planarUVRatioY: 1
+    cornerRadius: 1
+    defaultCornerRadius: 1
+    cornerSegments: 5
+    defaultCornerSegments: 5
+    innerSegmentDistance: 0.5
+    pavementIndex: 2
+    pavementSize: 0
+    curbVecCount: 0
+    subdivision: 0
+    crosswalkPavement: 0
+    crosswalkPavementCurb: 0
+    includeOuterStrip: 0
+    useCrosswalkUVs: 0
+    crosswalkLevelDistance: 0.5
+    crosswalkdepth: 1
+    crosswalkUVs: []
+    crosswalkLevelYLeft: 0.9
+    crosswalkLevelYRight: 0.1
+    crosswalkStripYLeft: 0.95
+    crosswalkStripYRight: 0.05
+    crosswalkSize: 5
+    crosswalkWidth: 1
+    crosswalkMinHeight: 0.02
+    crosswalkMaxHeight: 0.05
+    bottomInnerDistance: 0
+    topInnerDistance: 0
+    bottomStripDistance: 0
+    topStripDistance: 0
+    yPositions: []
+    realPavementIndex: 0
+    realColCount: 0
+    crosswalkOuterUVX: 0
+    crosswalkOuterOffset: 0
+    crosswalkOuterStripOffset: 0
+    crosswalkStripUVX: 0
+    texSizeRatio: 1
+    castShadow: 1
+    isStatic: 1
+    crosswalkSign: {fileID: 0}
+    crosswalkSignXOffset: 0
+    crosswalkSignZOffset: 0
     rotateLeftSigns: 1
   textureData: []
   presetAssets: []
